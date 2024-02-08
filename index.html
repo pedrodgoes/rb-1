@@ -22,6 +22,8 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-new.css">
+    <link rel="stylesheet" href="css/style.scss">
   </head>
   <body>
     
@@ -34,14 +36,14 @@
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-	          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-	          <li class="nav-item"><a href="about.html" class="nav-link">Quem somos</a></li>
-	          <li class="nav-item"><a href="practice-areas.html" class="nav-link">Áreas Atuantes</a></li>
-	          <li class="nav-item"><a href="case.html" class="nav-link">Casos Resolvidos</a></li>
-	          <li class="nav-item"><a href="attorneys.html" class="nav-link">Equipe</a></li>
-	          <li class="nav-item"><a href="blog.html" class="nav-link">Novidades</a></li>
-	          <li class="nav-item"><a href="contact.html" class="nav-link">Trabalhe Conosco</a></li>
-	          <li class="nav-item"><a href="contact.html" class="nav-link">Contato</a></li>
+	          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+	          <li class="nav-item"><a href="#section1" class="nav-link" onclick="scrollToSection('section1')">Quem somos</a></li>
+	          <li class="nav-item"><a href="#section2" class="nav-link" onclick="scrollToSection('section2')">Áreas Atuantes</a></li>
+	          <li class="nav-item"><a href="#section4" class="nav-link" onclick="scrollToSection('section4')">Equipe</a></li>
+			  <li class="nav-item"><a href="#section3" class="nav-link" onclick="scrollToSection('section3')">Casos Resolvidos</a></li>
+	      <!--     <li class="nav-item"><a href="blog.html" class="nav-link">Novidades</a></li> -->
+	          <li class="nav-item"><a href="#section5" class="nav-link" onclick="scrollToSection('section5')">Trabalhe Conosco</a></li>
+	          <li class="nav-item"><a href="#section6" class="nav-link" onclick="scrollToSection('section6')">Contato</a></li>
 	        </ul>
 	      </div>
 	    </div>
@@ -59,57 +61,48 @@
       </div>
     </div>
 
-	<!--Sessão dos 4 passos-->
-    <section class="ftco-section ftco-no-pb ftco-no-pt services-section mb-4">
-      <div class="container-fluid px-md-5 py-3">
-        <div class="row py-4 d-flex">
-          <div class="col-md-3 services align-self-stretch ftco-animate">
-            <div class="media-body">
-            	<span class="num">01</span>
-				<h3 class = "heading MB-3"> <a href="#"> Obtenha seus conselhos jurídicos </a> </h3>
-              <p></p>
-            </div>
-          </div>
-          <div class="col-md-3 services align-self-stretch ftco-animate">
-            <div class="media-body">
-            	<span class="num">02</span>
-              <h3 class="heading mb-3"><a href="#">Trabalhe com advogados especializados</a></h3>
-              <p></p>
-            </div>
-          </div>
-          <div class="col-md-3 services align-self-stretch ftco-animate">
-            <div class="media-body">
-            	<span class="num">03</span>
-              <h3 class="heading mb-3"><a href="#">Tenha ótimas tarifas com desconto</a></h3>
-              <p></p>
-            </div>
-          </div>
-          <div class="col-md-3 services align-self-stretch ftco-animate">
-            <div class="media-body">
-            	<span class="num">04</span>
-              <h3 class="heading mb-3"><a href="#">Revise os documentos do seu caso</a></h3>
-              <p></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+	 <!--================ Work Statics section start =================-->
+	 <section>
+		<div class="container static__single-position">
+		  <div class="row">
+			<div class="col-md-6 col-xl-4 mb-4 mb-xl-0">
+			  <div class="card static__single">
+				<h3 class="number mr-2" data-number="95">0</h3>
+				<h4>Taxas de Sucesso (%)</h4>
+			  </div>
+			</div>
+			<div class="col-md-6 col-xl-4 mb-4 mb-xl-0">
+			  <div class="card static__single">
+				<h3 class="number mr-2" data-number="190">0</h3>
+				<h4>Causas ganhas</h4>
+			  </div>
+			</div>
+			<div class="col-md-6 col-xl-4 mb-4 mb-xl-0">
+			  <div class="card static__single">
+				<h3 class="number mr-2" data-number="200">0</h3>
+				<h4>Clientes Atendidos</h4>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </section>
+	  <!--================ Work Statics section end =================-->  
    	
 	<!--Sessão de quem somos-->
-    <section class="ftco-section ftco-no-pt ftco-no-pb">
+    <section class="ftco-section ftco-no-pt ftco-no-pb mt-5" id="section1">
     	<div class="container">
-    		<div class="row d-flex">
+    		<div class="row d-flex ">
     			<div class="col-md-6 d-flex">
     				<div class="img img-video d-flex align-self-stretch align-items-center justify-content-center justify-content-md-end mt-5" style="background-image:url(images/about.jpg);">
-    					<a href="https://vimeo.com/45830194" class="icon-video popup-vimeo d-flex justify-content-center align-items-center">
-    						<span class="icon-play"></span>
+    					<a href="https://vimeo.com/45830194" class="icon-video popup-vimeo d-flex justify-content-center align-items-center" >
+    						<span class="icon-play" ></span>
     					</a>
     				</div>
     			</div>
-    			<div class="col-md-6 px-5 py-5">
+    			<div class="col-md-6 px-5 py-5 mt-5">
     				<div class="row justify-content-start pt-3 pb-3">
 		          <div class="col-md-12 heading-section ftco-animate">
-		          	<span class="subheading">Bem-vindo ao Escritório</span>
+		          	<span class="subheading" style="color: #daa520;">Por dentro do escritório Rodrigo Barros</span>
 		            <h2 class="mb-4">Sempre lutamos para que sua justiça vença</h2>
 		            <p>A Justiça Previdenciária é a guardiã dos frutos do trabalho, assegurando que as contribuições ao longo da vida se transformem em garantias para o futuro. </p>
 		            <p>Seu papel é essencial para proteger as conquistas laborais, proporcionando sustento e amparo nos momentos em que mais se precisa.</p>
@@ -126,7 +119,7 @@
     </section>
 
 	<!--Sessão de áreas-->
-    <section class="ftco-section">
+    <section class="ftco-section"  id="section2" >
     	<div class="container">
     		<div class="row no-gutters justify-content-center mb-5">
           <div class="col-md-7 text-center heading-section ftco-animate">
@@ -135,9 +128,9 @@
         </div>
         <div class="row no-gutters d-flex justify-content-center">
         	<div class="col-md-3 text-center">
-        		<div class="practice-area border-b no-border-l ftco-animate">
-        			<div class="icon d-flex justify-content-center align-items-center">
-        				<span class="flaticon-family"></span>
+        		<div class="practice-area border-b no-border-l ftco-animate" style="border: 5px solid blue; border-top: 5px solid yellow; border-bottom: 5px solid yellow;">
+        			<div class="icon d-flex justify-content-center align-items-center" >
+        				<img src="couple.png" alt="Ícone Personalizado">
         			</div>
         			<h3><a href="#">INSS</a></h3>
         			<p> O INSS promove a proteção social, garantindo direitos previdenciários e promovendo o bem-estar da população brasileira. </p>
@@ -146,16 +139,16 @@
         	<div class="col-md-3 text-center">
         		<div class="practice-area border-b ftco-animate">
         			<div class="icon d-flex justify-content-center align-items-center">
-        				<span class="flaticon-auction"></span>
+        				<img src="couple.png" alt="Ícone Personalizado">
         			</div>
         			<h3><a href="#">Auxílio-Doença</a></h3>
         			<p> O INSS promove a proteção social, garantindo direitos previdenciários e promovendo o bem-estar da população brasileira. </p>
         		</div>
         	</div>
         	<div class="col-md-3 text-center">
-        		<div class="practice-area border-b ftco-animate">
+        		<div class="practice-area border-b ftco-animate" style="border: 5px solid blue; border-top: 5px solid yellow; border-bottom: 5px solid yellow;">
         			<div class="icon d-flex justify-content-center align-items-center">
-        				<span class="flaticon-shield"></span>
+        				<img src="couple.png" alt="Ícone Personalizado">
         			</div>
         			<h3><a href="#">Revisão de Benefícios</a></h3>
         			<p> O INSS promove a proteção social, garantindo direitos previdenciários e promovendo o bem-estar da população brasileira. </p>
@@ -164,25 +157,25 @@
         	<div class="col-md-3 text-center">
         		<div class="practice-area border-b ftco-animate">
         			<div class="icon d-flex justify-content-center align-items-center">
-        				<span class="flaticon-handcuffs"></span>
+        				<img src="couple.png" alt="Ícone Personalizado">
         			</div>
         			<h3><a href="#">Pensão por Morte</a></h3>
         			<p> O INSS promove a proteção social, garantindo direitos previdenciários e promovendo o bem-estar da população brasileira.</p>
         		</div>
         	</div>
         	<div class="col-md-3 text-center">
-        		<div class="practice-area border-b no-border-l ftco-animate">
+        		<div class="practice-area border-b no-border-l ftco-animate" >
         			<div class="icon d-flex justify-content-center align-items-center">
-        				<span class="flaticon-family"></span>
+        				<img src="couple.png" alt="Ícone Personalizado">
         			</div>
         			<h3><a href="#">INSS</a></h3>
         			<p> O INSS promove a proteção social, garantindo direitos previdenciários e promovendo o bem-estar da população brasileira. </p>
         		</div>
         	</div>
         	<div class="col-md-3 text-center">
-        		<div class="practice-area border-b ftco-animate">
+        		<div class="practice-area border-b ftco-animate" style="border: 5px solid blue; border-top: 5px solid yellow; border-bottom: 5px solid yellow;">
         			<div class="icon d-flex justify-content-center align-items-center">
-        				<span class="flaticon-auction"></span>
+        				<img src="couple.png" alt="Ícone Personalizado">
         			</div>
         			<h3><a href="#">Auxílio-Doença</a></h3>
         			<p> O INSS promove a proteção social, garantindo direitos previdenciários e promovendo o bem-estar da população brasileira. </p>
@@ -191,16 +184,16 @@
         	<div class="col-md-3 text-center">
         		<div class="practice-area border-b ftco-animate">
         			<div class="icon d-flex justify-content-center align-items-center">
-        				<span class="flaticon-shield"></span>
+        				<img src="couple.png" alt="Ícone Personalizado">
         			</div>
         			<h3><a href="#">Revisão de Benefícios</a></h3>
         			<p> O INSS promove a proteção social, garantindo direitos previdenciários e promovendo o bem-estar da população brasileira. </p>
         		</div>
         	</div>
         	<div class="col-md-3 text-center">
-        		<div class="practice-area border-b ftco-animate">
+        		<div class="practice-area border-b ftco-animate" style="border: 5px solid blue; border-top: 5px solid yellow; border-bottom: 5px solid yellow;">
         			<div class="icon d-flex justify-content-center align-items-center">
-        				<span class="flaticon-handcuffs"></span>
+        				<img src="couple.png" alt="Ícone Personalizado">
         			</div>
         			<h3><a href="#">Pensão por Morte</a></h3>
         			<p> O INSS promove a proteção social, garantindo direitos previdenciários e promovendo o bem-estar da população brasileira.</p>
@@ -210,8 +203,12 @@
     	</div>
     </section>
 
+	<div id="section4" style="margin-bottom: 50px;">
+		<div class="practice-area border-b ftco-animate"></div>
+	</div>
+
 	<!--Sessão da equipe-->
-    <section class="ftco-section ftco-no-pt">
+    <section class="ftco-section ftco-no-pt"  >
     	<div class="container">
     		<div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 text-center heading-section ftco-animate">
@@ -228,10 +225,11 @@
 	                  <p>Advogado Previdenciário</p>
 	                </div>
 	              </div>
-	              <div class="back">
+	              <div class="back" style="background: rgb(60,60,60);
+				  background: linear-gradient(90deg, rgba(60,60,60,1) 37%, rgba(191,191,191,1) 100%);">
 	                <!-- back content -->
 	                <blockquote>
-	                  <p>&ldquo; Acredit que, por meio do conhecimento profundo das nuances legais, podemos transformar desafios em conquistas e oferecer um caminho claro para um futuro digno e protegido. &rdquo;</p>
+	                  <p>&ldquo; Acredito que, por meio do conhecimento profundo das nuances legais, podemos transformar desafios em conquistas e oferecer um caminho claro para um futuro digno e protegido. &rdquo;</p>
 	                </blockquote>
 	                <div class="author d-flex">
 	                  <div class="image align-self-center">
@@ -252,10 +250,11 @@
 	                  <p>Advogado Previdenciário</p>
 	                </div>
 	              </div>
-	              <div class="back">
+	              <div class="back" style="background: rgb(60,60,60);
+				  background: linear-gradient(90deg, rgba(60,60,60,1) 37%, rgba(191,191,191,1) 100%);">
 	                <!-- back content -->
 	                <blockquote>
-	                  <p>&ldquo; Acredit que, por meio do conhecimento profundo das nuances legais, podemos transformar desafios em conquistas e oferecer um caminho claro para um futuro digno e protegido. &rdquo;</p>
+	                  <p>&ldquo; Acredito que, por meio do conhecimento profundo das nuances legais, podemos transformar desafios em conquistas e oferecer um caminho claro para um futuro digno e protegido. &rdquo;</p>
 	                </blockquote>
 	                <div class="author d-flex">
 	                  <div class="image align-self-center">
@@ -276,10 +275,11 @@
 	                  <p>Advogado Previdenciário</p>
 	                </div>
 	              </div>
-	              <div class="back">
+	              <div class="back" style="background: rgb(60,60,60);
+				  background: linear-gradient(90deg, rgba(60,60,60,1) 37%, rgba(191,191,191,1) 100%);">
 	                <!-- back content -->
 	                <blockquote>
-	                  <p>&ldquo; Acredit que, por meio do conhecimento profundo das nuances legais, podemos transformar desafios em conquistas e oferecer um caminho claro para um futuro digno e protegido. &rdquo;</p>
+	                  <p>&ldquo; Acredito que, por meio do conhecimento profundo das nuances legais, podemos transformar desafios em conquistas e oferecer um caminho claro para um futuro digno e protegido. &rdquo;</p>
 	                </blockquote>
 	                <div class="author d-flex">
 	                  <div class="image align-self-center">
@@ -300,10 +300,11 @@
 	                  <p>Advogado Previdenciário</p>
 	                </div>
 	              </div>
-	              <div class="back">
+	              <div class="back" style="background: rgb(60,60,60);
+				  background: linear-gradient(90deg, rgba(60,60,60,1) 37%, rgba(191,191,191,1) 100%);">
 	                <!-- back content -->
 	                <blockquote>
-	                  <p>&ldquo; Acredit que, por meio do conhecimento profundo das nuances legais, podemos transformar desafios em conquistas e oferecer um caminho claro para um futuro digno e protegido. &rdquo;</p>
+	                  <p>&ldquo; Acredito que, por meio do conhecimento profundo das nuances legais, podemos transformar desafios em conquistas e oferecer um caminho claro para um futuro digno e protegido. &rdquo;</p>
 	                </blockquote>
 	                <div class="author d-flex">
 	                  <div class="image align-self-center">
@@ -319,37 +320,9 @@
     	</div>
     </section>
 		
-	<!--Sessão de enviar email-->
-		<section class="ftco-consultation ftco-section img" style="background-image: url(images/bg_2.jpg);">
-			<div class="overlay"></div>
-    	<div class="container">
-    		<div class="row d-md-flex justify-content-end">
-    			<div class="col-md-6 half p-3 p-md-5 ftco-animate heading-section">
-    				<h2 class="mb-4">Contate-nos</h2>
-    				<form action="#" class="consultation">
-	            <div class="form-group">
-	              <input type="text" class="form-control" placeholder="Seu nome">
-	            </div>
-	            <div class="form-group">
-	              <input type="text" class="form-control" placeholder="Seu email">
-	            </div>
-	            <div class="form-group">
-	              <input type="text" class="form-control" placeholder="Assunto">
-	            </div>
-	            <div class="form-group">
-	              <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Mensagem"></textarea>
-	            </div>
-	            <div class="form-group">
-	              <input type="submit" value="Enviar" class="btn btn-primary py-3 px-4">
-	            </div>
-	          </form>
-    			</div>
-    		</div>
-    	</div>
-    </section>
 
 	<!--Sessão de casos ganhos-->
-    <section class="ftco-section">
+    <section class="ftco-section"  id="section3">
     	<div class="container">
     		<div class="row justify-content-center mb-5">
           <div class="col-md-10 text-center heading-section ftco-animate">
@@ -496,6 +469,35 @@
       </div>
     </section>
 
+	<!--Sessão de enviar email-->
+	<section class="ftco-consultation ftco-section img" style="background-image: url(images/bg_2.jpg);"  id="section6">
+		<div class="overlay"></div>
+	<div class="container">
+		<div class="row d-md-flex justify-content-end">
+			<div class="col-md-6 half p-3 p-md-5 ftco-animate heading-section">
+				<h2 class="mb-4">Contate-nos</h2>
+				<form action="#" class="consultation">
+			<div class="form-group">
+				<input type="text" class="form-control" placeholder="Seu nome">
+			</div>
+			<div class="form-group">
+				<input type="text" class="form-control" placeholder="Seu email">
+			</div>
+			<div class="form-group">
+				<input type="text" class="form-control" placeholder="Assunto">
+			</div>
+			<div class="form-group">
+				<textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Mensagem"></textarea>
+			</div>
+			<div class="form-group">
+				<input type="submit" value="Enviar" class="btn btn-primary py-3 px-4" >
+			</div>
+			</form>
+			</div>
+		</div>
+	</div>
+	</section>
+
 
 	<!--Sessão do blog-->
     <section class="ftco-section bg-light" style="display: none;">
@@ -619,7 +621,7 @@
     </section>
 
 	<!--Sessão de newsletter-->
-    <section class="ftco-section ftco-no-pt ftco-no-pb bg-primary">
+    <section class="ftco-section ftco-no-pt ftco-no-pb bg-primary" >
       <div class="container py-4">
         <div class="row d-flex justify-content-center">
           <div class="col-md-7 ftco-animate d-flex align-items-center">
@@ -716,6 +718,18 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
+
+  <script>
+	function scrollToSection(sectionId) {
+		const section = document.getElementById(sectionId);
+		const offset = 50; // Espaço superior desejado
+
+		window.scrollTo({
+			top: section.offsetTop - offset,
+			behavior: 'smooth'
+		});
+	}
+  </script>
     
   </body>
 </html>

@@ -8039,8 +8039,8 @@ h1, h2, h3, h4, h5,
       position: relative;
       top: 0; } }
   .ftco-navbar-light .navbar-brand {
-    color: #fff; }
-    @media (max-width: 991.98px) {
+    color: black; }
+    @media (max-width: 768px) {
       .ftco-navbar-light .navbar-brand {
         color: #fff; } }
   @media (max-width: 991.98px) {
@@ -8054,7 +8054,11 @@ h1, h2, h3, h4, h5,
     padding-right: 20px;
     color: #fff;
     font-weight: 400;
-    opacity: 1 !important; }
+    opacity: 1 !important;
+    @media screen and (min-width: 768px) {
+         color: black;
+    }
+  }
     .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
       color: #83b582; }
     @media (max-width: 991.98px) {
@@ -8129,7 +8133,8 @@ h1, h2, h3, h4, h5,
     left: 0;
     top: 0;
     margin-top: -130px;
-    background: #fff !important;
+    background: rgb(251,206,63) !important;
+    background: radial-gradient(circle, rgba(251,206,63,1) 0%, rgba(252,132,70,1) 100%) !important;
     -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1); }
     @media (max-width: 991.98px) {
@@ -8209,7 +8214,10 @@ h1, h2, h3, h4, h5,
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
-  position: relative; }
+  position: relative; 
+  @media screen and (min-width: 768px) {
+    margin-top: 90px;
+} }
   .hero-wrap .overlay {
     position: absolute;
     top: 0;
@@ -8660,7 +8668,7 @@ textarea.form-control {
   visibility: hidden; }
 
 .bg-primary {
-  background: #83b582 !important; }
+  background: #daa520 !important; }
 
 .about-author .desc h3 {
   font-size: 24px; }
@@ -8717,9 +8725,9 @@ textarea.form-control {
     font-size: 20px;
     font-weight: 400; }
   .ftco-footer .ftco-footer-widget ul li a {
-    color: #83b582; }
+    color: #daa520; }
     .ftco-footer .ftco-footer-widget ul li a span {
-      color: #83b582; }
+      color: #daa520; }
   .ftco-footer .ftco-footer-widget .btn-primary {
     background: #fff !important;
     border: 2px solid #fff !important; }
