@@ -9693,3 +9693,40 @@ textarea.form-control {
   font-size: 20px; /* Ajuste o tamanho da fonte conforme necessário */
   cursor: pointer;
 }
+
+.toggle-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Espaçamento entre os itens (ajuste conforme necessário) */
+}
+
+.toggle-btn a {
+  text-decoration: none;
+  padding: 10px;
+  border: 1px solid #333; /* Cor da borda */
+  border-radius: 5px; /* Borda arredondada */
+  color: #333; /* Cor do texto */
+  display: flex;
+  align-items: center;
+  background: rgb(251,206,63) !important;
+  background: radial-gradient(circle, rgba(251,206,63,1) 0%, rgba(252,132,70,1) 100%) !important;
+
+  @media (max-width: 768px) {
+    color: white;
+    height: 40px;;
+  }
+}
+
+#toggleButton {
+  cursor: pointer;
+}
+
+img {
+  width: 30px; /* Ajuste o tamanho da imagem conforme necessário */
+  margin: 0 auto; /* Centraliza a imagem */
+}
+
+#navbar {
+  transition: transform 0.5s ease; /* Adiciona uma transição suave ao esconder/mostrar */
+}
+
