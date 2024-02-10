@@ -725,17 +725,25 @@
 
 	window.addEventListener("scroll", function () {
 	let st = window.pageYOffset || document.documentElement.scrollTop;
+	let navbar = document.getElementById("navbar");
 
-	if (st > lastScrollTop) {
+	if (window.innerWidth > 768) {
+		// Dispositivos com tela maior que 768px
+		if (st > lastScrollTop) {
 		// Role para baixo
-		document.getElementById("navbar1").style.transform = "translateY(-100%)"; // Esconda a barra de navegação
-	} else {
+		navbar.style.transform = "translateY(-100%)";
+		} else {
 		// Role para cima
-		document.getElementById("navbar1").style.transform = "translateY(0)"; // Mostre a barra de navegação
+		navbar.style.transform = "translateY(0)";
+		}
+	} else {
+		// Dispositivos com tela menor ou igual a 768px (mobile)
+		navbar.style.transform = "translateY(0)";
 	}
 
-	lastScrollTop = st <= 0 ? 0 : st; // Garanta que `lastScrollTop` não seja um número negativo
+	lastScrollTop = st <= 0 ? 0 : st;
 	});
+
   </script>
     
   </body>
