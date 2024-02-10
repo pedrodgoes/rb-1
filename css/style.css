@@ -9698,7 +9698,7 @@ textarea.form-control {
 .toggle-btn {
   display: flex;
   align-items: center;
-  gap: 10px; /* Espaçamento entre os itens (ajuste conforme necessário) */
+  gap: 2px; /* Espaçamento entre os itens (ajuste conforme necessário) */
 
   @media (max-width: 768px) {
     display: none;
@@ -9722,8 +9722,8 @@ textarea.form-control {
 }
 
 #parintins {
-  font-size: 22px;
-  font-weight: 800;
+  font-size: 16px;
+  font-weight: 600;
 
   @media (max-width: 768px) {
     font-size: 14px;
@@ -9750,4 +9750,17 @@ img {
 #navbar {
   transition: transform 0.5s ease; /* Adiciona uma transição suave ao esconder/mostrar */
 }
+
+.vertical-line {
+  border-left: 2px solid #000; /* Cor e largura da borda */
+  height: 50px; /* Altura da borda */
+  width: 1px; /* Largura da borda */
+  margin: 0 auto; /* Centraliza a borda */
+  margin-right: 10px;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
 
