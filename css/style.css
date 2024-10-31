@@ -9766,4 +9766,11 @@ img {
   }
 }
 
+#logo-novidades {
+  background: rgb(182,255,183);
+  background: linear-gradient(0deg, rgba(182,255,183,1) 0%, rgba(45,227,253,1) 100%);
+  border-radius: 5px;
+	padding: 5px;
+}
+
 
